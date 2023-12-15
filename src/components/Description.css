@@ -1,0 +1,39 @@
+.form {
+  display: flex; /* Use a flex container to arrange items side by side */
+  justify-content: space-evenly; /* Distribute items evenly along the horizontal axis */
+}
+
+.item {
+  flex: 1; /* Allow items to take up an equal amount of space */
+  text-align: center; /* Center text within items */
+}
+
+ul {
+  list-style: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  display: flex; /* Use flexbox to make list items horizontal */
+  align-items: center; /* Center items vertically within the list item */
+  justify-content: space-evenly; /* Add space between items */
+  padding: 10px; /* Add some padding for spacing */
+  border: 1px solid black; /* Add a border to separate items */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+/* Adjust the width of your items to control their layout */
+.item {
+  flex: 1; /* Allow items to take up an equal amount of space */
+  /* Other styling properties like text-align, font-size, etc. */
+}
+button {
+  /* Style your "Add to Bill" button as needed */
+  background-color: aquamarine;
+  border: 1px solid rgb(5, 6, 4);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 600px; /* Add some left margin to move the button to the right */
+}
+
